@@ -1,0 +1,32 @@
+/* CSS Document */
+
+
+table
+{
+	min-width: 600px;
+	border: thin solid silver;
+	margin: 5px;
+}
+
+
+thead
+{
+	background: rgba(0,0,0,1.00);
+	color: white;
+}
+
+tr:nth-child(even)
+{
+	background: rgba(85,85,85,0.1);
+}
+
+td, th
+{
+	border-bottom: thin dashed gray;
+	padding: 5px;
+}
+
+table img
+{
+	height: 100px;
+}

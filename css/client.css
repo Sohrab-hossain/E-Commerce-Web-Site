@@ -1,0 +1,126 @@
+/* CSS Document */
+
+.course
+{
+	width: 235px;
+	height: 200px;
+	border: thin solid silver;
+	float: left;
+	margin: 10px;
+	background: rgba(239,231,232,0.20);
+	padding: 5px;
+	position: relative;
+}
+
+.course:hover
+{
+	background: rgba(64,224,32,0.50);
+	border: thin solid red;
+}
+
+.course span
+{
+	display: block;
+	padding: 5px;
+}
+
+.course h2
+{
+	font-size: 14px;
+	background: rgba(90,12,13,0.80);
+	font-weight: bold;
+	color: white;
+	margin-left: -15px;
+	padding-left: 20px;
+}
+
+
+.course p
+{
+	visibility: hidden;
+	position: absolute;
+	left:0px;
+	right: 0px;
+	bottom: 0px;
+	min-height: 40px;
+	height: auto;
+	padding: 10px;
+	transform: rotate(45deg);
+}
+
+.course:hover p
+{
+	visibility: visible;
+	background: rgba(0,0,0,0.58);
+	color: green;
+	transform: rotate(0deg);
+	transition: 1s;
+}
+
+.student
+{
+	width: 180px;
+	height: 220px;
+	border: dashed gray thin;
+	float: left;
+	margin: 15px;
+	background: yellow;
+	position: relative;
+	overflow: hidden;
+}
+
+.student div{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 5px;
+	background: rgba(0,0,0,0.70);
+	color: white;
+}
+
+.student image
+{
+	width: inherit;
+}
+
+.profile
+{
+	width: 900px;
+	border: black dashed thin;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	padding: 10px;
+}
+
+.album
+{
+	width: 300px;
+	float: left;
+	height: 350;
+	overflow: hidden;
+	border: black dashed thin;
+	position: relative;
+}
+
+.album div
+{
+	height: 100px;
+	background: rgba(0,0,0,0.48);
+	overflow: scroll;
+}
+
+.album #mainImage
+{
+	width: inherit;
+}
+
+.details
+{
+	width: 550px;
+	float: right;
+	height: 500px;
+	overflow: hidden;
+	border: black dashed thin;
+}

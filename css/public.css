@@ -1,0 +1,21 @@
+/* CSS Document */
+
+
+
+.addToCart
+{
+	font-size: 16px;
+}
+
+.wishList
+{
+	font-size: 16px;
+}
+.summery
+{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+	background: rgba(199,23,26,0.5);
+}

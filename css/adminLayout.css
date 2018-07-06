@@ -1,0 +1,88 @@
+/* CSS Document */
+*
+{
+	padding: 0px;
+	margin: 0px auto;
+}
+
+body
+{
+	background: rgba(0,0,0,0.73);
+}
+
+.header
+{
+	min-height: 130px;
+	background: rgba(0,0,0,0.90);
+	box-shadow: 0px 3px gray;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.header img
+{
+	height: inherit;
+	opacity: 0.6;
+	border-radius: 3px 30px 3px 30px;
+	padding-left: 50px;
+	margin: 3px;
+	float: left;
+}
+
+.header div
+{
+	width: 600px;
+	height: inherit;
+	float: left;
+	margin-left: 20px;
+}
+
+.header h1
+{
+	color: white;
+	font-size: 50px;
+	padding: 5px;
+}
+
+.header span
+{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.adminMenu
+{
+	height:auto;
+	overflow: visible;
+	position: relative;
+	clear: both;
+}
+
+.form-group
+{
+	border: none;
+	margin: 0px;
+}
+
+.content
+{
+	height: auto;
+	background: rgba(249,247,247,0.8);
+	padding: 10px;
+	padding-bottom: 200px;
+	min-height: 550px;
+	overflow: hidden;
+}
+
+.footer
+{
+	height: 80px;
+	background: rgba(0,0,0,0.90);
+	color: white;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}

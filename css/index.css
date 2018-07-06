@@ -1,0 +1,87 @@
+/* CSS Document */
+
+*
+{
+	margin: 0 auto 0 auto;
+}
+
+body
+{
+	background: rgba(0,0,0,0.8);
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-size: 14px;
+}
+
+.header
+{
+	height: 130px;
+	background: rgba(88,5,6,0.9);
+	border-bottom: thin solid white;
+}
+
+.header img
+{
+	height:inherit;
+	float: left;
+}
+
+
+.header h1
+{
+	font-size: 20px;
+	line-height: 20px;
+	color: aqua;
+}
+
+.main
+{
+	border:thin solid white;
+	height: auto;
+	overflow: hidden;
+}
+
+.menu
+{
+	background: rgba(15,11,99,0.9);
+	height: 40px;
+	text-align: right;
+}
+
+.menu a
+{
+	text-decoration: none;
+	color: blueviolet;
+	font-size: 15px;
+	background: rgba(31,31,31,0.7);
+	padding: 5px;
+	display: inline-block;
+	
+}
+
+.pageTitle
+{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+}
+
+
+
+
+.footer
+{
+	height: 80px;
+	background: rgba(88,5,6,0.9);
+	border-top: thin solid white;
+}
+
+hl
+{
+	background:rgba(155,159,21,0.89);
+	font-weight: bold;
+}
+
+
+
+

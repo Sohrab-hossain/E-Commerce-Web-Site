@@ -1,0 +1,96 @@
+/* CSS Document */
+
+
+.product
+{
+	height: 320px;
+	width: 220px;
+	background: rgba(206,224,76,0.1);
+	float: left;
+	margin: 15px;
+	padding: 10px;
+	border: thin dashed silver;
+	box-shadow: 4px 4px gray;
+	position: relative;
+	overflow: hidden;
+}
+
+.product h1
+{
+	font-size: 14px;
+	font-weight: bold;
+	background: rgba(5,4,4,0.5);
+	color: white;
+	padding: 5px;
+	padding-left: 20px;
+	position: absolute;
+	left: -10px;
+	right: 10px;
+	top: 5px;
+	border-radius: 3px;
+	z-index: 50;
+}
+
+.product a
+{
+	width: inherit;
+}
+
+.product img
+{
+	width: inherit;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 100;
+	border: none;
+}
+
+.product p
+{
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: -20px;
+	background: white;
+	color: rgba(5,4,4,0.5);
+	padding: 10px;
+	transform: rotate(180deg);
+	z-index: 400px;
+}
+
+.product:hover p
+{
+	visibility: visible;
+	background: rgba(5,4,4,0.5);
+	color: white;
+	transform: rotate(360deg);
+	transition:1s;
+}
+
+
+.product div
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 50px;
+	padding: 5px;
+	z-index: 500px;
+}
+
+.kata
+{
+	text-decoration: line-through;
+	color: red;
+}
+
+.product span
+{
+	display: block;
+	padding: 3px;
+	background: rgba(227,207,208,0.5);
+	font-size: 12px;
+}
